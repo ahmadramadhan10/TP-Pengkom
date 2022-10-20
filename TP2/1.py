@@ -12,7 +12,7 @@ for i in range(1, n):
   if n % i == 0: # jika i habis membagi n maka tambah variabel tot
     tot += i
 
-if tot == n or n == 1: # cek apakah total nya sama dengan n
+if tot == n: # cek apakah total nya sama dengan n
   print('Bilangan tersebut adalah bilangan sempurna.')
 else:
   print('Bilangan tersebut bukan bilangan sempurna.')
