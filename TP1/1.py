@@ -24,5 +24,5 @@ if a_prof > b_prof and a_prof > b_prof:
   print('A')
 elif b_prof > a_prof and b_prof > c_prof:
   print('B')
-elif c_prof > a_prof and c_prof > a_prof:
+elif c_prof > a_prof and c_prof > b_prof:
   print('C')
